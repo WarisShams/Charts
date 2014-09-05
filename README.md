@@ -7,7 +7,8 @@ PIE, Bar , Line and Doughnut Charts to use in any app.
 PIE Chart:
 
 // In your viewDidLoad method add this code.
--- (void)viewDidLoad
+
+ - (void)viewDidLoad
 {
     [super viewDidLoad];
     
@@ -24,7 +25,7 @@ PIE Chart:
 Line Chart:
 // In your viewDidLoad method add this code.
 
--- (void)viewDidLoad
+ - (void)viewDidLoad
 {
     [super viewDidLoad];
     LineChartExp *line = [[LineChartExp alloc]initWithFrame:CGRectMake(10, 80, 300, 200)];
@@ -37,7 +38,8 @@ Line Chart:
 
 Bar Chart:
 // In your viewDidLoad method add this code.
-- (void)viewDidLoad
+
+ - (void)viewDidLoad
 {
     [super viewDidLoad];
     
