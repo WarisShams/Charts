@@ -8,6 +8,7 @@ PIE Chart:
 
 // In your viewDidLoad method add this code.
 
+```objective-c
  - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -21,10 +22,11 @@ PIE Chart:
     
     [self.view addSubview:pie];
 }
-
+```
 Line Chart:
 // In your viewDidLoad method add this code.
 
+```objective-c
  - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,11 +37,13 @@ Line Chart:
     line.backgroundColor = [UIColor clearColor];
     [self.view addSubview:line];
 }
+````
 
 Bar Chart:
 // In your viewDidLoad method add this code.
 
- - (void)viewDidLoad
+```objective-c
+- (void)viewDidLoad
 {
     [super viewDidLoad];
     
@@ -55,3 +59,27 @@ Bar Chart:
     barBase.backgroundColor = [UIColor clearColor];
     [self.view addSubview:barBase];
 }
+```
+
+<br>
+Pie Chart
+
+<br>
+![alt tag](https://github.com/WarisShams/Charts/blob/master/iOS%20Simulator%20Screen%20shot%2005-Sep-2014%203.25.51%20pm.png "Pie Chart")
+<br>
+
+Pie Chart Selection
+<br>
+![alt tag](https://github.com/WarisShams/Charts/blob/master/iOS%20Simulator%20Screen%20shot%2005-Sep-2014%203.25.59%20pm.png "Pie Chart Selection")
+<br>
+
+Line Chart
+<br>
+![alt tag](https://github.com/WarisShams/Charts/blob/master/iOS%20Simulator%20Screen%20shot%2005-Sep-2014%203.26.04%20pm.png "Line Chart")
+<br>
+
+Bar Chart
+<br>
+![alt tag](https://github.com/WarisShams/Charts/blob/master/iOS%20Simulator%20Screen%20shot%2005-Sep-2014%203.26.18%20pm.png "Bar Chart")
+<br>
+
